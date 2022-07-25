@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+.panel {
+    flex-direction: column;
+    height: 100%;
+    width: 60px;
+    background-color: #f2f2f2;
+}
+.onebutton {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.onebutton:hover {
+    background-color: rgb(114, 114, 114);
+}
+.twobutton {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.twobutton:hover {
+    background-color: rgb(114, 114, 114);
+}
+.threebutton {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.threebutton:hover {
+    background-color: rgb(114, 114, 114);
+}
+.fourbutton {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.fourbutton:hover {
+    background-color: rgb(114, 114, 114);
+}
+.pindextable {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 40px;
+    width: 150px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.indexsota {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.news {
+    margin-left: 2%;
+    height: 93%;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.product {
+    float: right;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    overflow-y:auto;
+}
+.ptable {
+    width: 96%;
+    height: 90%;
+
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2}
